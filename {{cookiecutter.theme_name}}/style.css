@@ -1,0 +1,14 @@
+/*
+Theme Name: {{theme_name_full}}
+Theme URI: {{theme_uri}}
+Author: {{author_name}}
+Author URI: {{author_uri}}
+Description: {{short_description}}
+Version: {{version}}
+License: {{license}}
+License URI: {{license_uri}}
+Tags: {{tags}}
+Text Domain: {{theme_name}}
+*/
+
+@import "css/main.css";
