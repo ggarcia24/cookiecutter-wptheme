@@ -9,6 +9,6 @@
   "short_description": "Simple directory structure for wordpress themes.",
   "version": "0.0.1",
   "year": "2016",
-  "license": "GNU General Public License v2 or later",
+  "license": "GPL-2.0",
   "license_uri": "http://www.gnu.org/licenses/gpl-2.0.html"
 }

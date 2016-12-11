@@ -21,4 +21,4 @@ output_style = (environment == :production) ? :compressed : :expanded
 sourcemap = (environment == :production) ? true : false
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-line_comments = false
+line_comments = (environment == :production) ? false : true
