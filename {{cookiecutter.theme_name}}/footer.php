@@ -3,10 +3,6 @@
  * The template for displaying the footer
  *
  * Contains the closing of the "site-content" div and all content after.
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
  */
 ?>
 
@@ -20,7 +16,7 @@
 				 *
 				 * @since Twenty Fifteen 1.0
 				 */
-				do_action( 'twentyfifteen_credits' );
+				do_action( '{{cookiecutter.theme_name}}_credits' );
 			?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '{{cookiecutter.theme_name}}' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '{{cookiecutter.theme_name}}' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->

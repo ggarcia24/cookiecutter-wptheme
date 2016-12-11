@@ -4,10 +4,6 @@
  *
  * The area of the page that contains both current comments
  * and the comment form.
- *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
  */
 
 /*
@@ -30,7 +26,7 @@ if ( post_password_required() ) {
 			?>
 		</h2>
 
-		<?php twentyfifteen_comment_nav(); ?>
+		<?php {{cookiecutter.theme_name}}_comment_nav(); ?>
 
 		<ol class="comment-list">
 			<?php
@@ -42,7 +38,7 @@ if ( post_password_required() ) {
 			?>
 		</ol><!-- .comment-list -->
 
-		<?php twentyfifteen_comment_nav(); ?>
+		<?php {{cookiecutter.theme_name}}_comment_nav(); ?>
 
 	<?php endif; // have_comments() ?>
 
