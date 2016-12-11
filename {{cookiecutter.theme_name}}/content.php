@@ -30,16 +30,16 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s', '{{theme_name}}' ),
+				__( 'Continue reading %s', '{{cookiecutter.theme_name}}' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', '{{theme_name}}' ) . '</span>',
+				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', '{{cookiecutter.theme_name}}' ) . '</span>',
 				'after'       => '</div>',
 				'link_before' => '<span>',
 				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', '{{theme_name}}' ) . ' </span>%',
+				'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', '{{cookiecutter.theme_name}}' ) . ' </span>%',
 				'separator'   => '<span class="screen-reader-text">, </span>',
 			) );
 		?>
@@ -54,7 +54,7 @@
 
 	<footer class="entry-footer">
 		<?php twentyfifteen_entry_meta(); ?>
-		<?php edit_post_link( __( 'Edit', '{{theme_name}}' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', '{{cookiecutter.theme_name}}' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->

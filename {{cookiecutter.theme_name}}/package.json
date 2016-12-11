@@ -1,9 +1,9 @@
 {
-  "name": "{{theme_name}}",
-  "version": "{{version}}",
-  "description": "{{short_description}}",
-  "repository": "{{theme_uri}}",
-  "license": "{{license}}",
+  "name": "{{cookiecutter.theme_name}}",
+  "version": "{{cookiecutter.version}}",
+  "description": "{{cookiecutter.short_description}}",
+  "repository": "{{cookiecutter.theme_uri}}",
+  "license": "{{cookiecutter.license}}",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",

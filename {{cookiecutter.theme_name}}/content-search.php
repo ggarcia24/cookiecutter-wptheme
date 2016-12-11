@@ -25,12 +25,12 @@
 
 		<footer class="entry-footer">
 			<?php twentyfifteen_entry_meta(); ?>
-			<?php edit_post_link( __( 'Edit', '{{theme_name}}' ), '<span class="edit-link">', '</span>' ); ?>
+			<?php edit_post_link( __( 'Edit', '{{cookiecutter.theme_name}}' ), '<span class="edit-link">', '</span>' ); ?>
 		</footer><!-- .entry-footer -->
 
 	<?php else : ?>
 
-		<?php edit_post_link( __( 'Edit', '{{theme_name}}' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
+		<?php edit_post_link( __( 'Edit', '{{cookiecutter.theme_name}}' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
 
 	<?php endif; ?>
 

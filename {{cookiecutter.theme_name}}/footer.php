@@ -22,7 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '{{theme_name}}' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '{{theme_name}}' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', '{{cookiecutter.theme_name}}' ) ); ?>"><?php printf( __( 'Proudly powered by %s', '{{cookiecutter.theme_name}}' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 

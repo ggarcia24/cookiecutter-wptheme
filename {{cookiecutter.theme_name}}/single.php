@@ -30,11 +30,11 @@ get_header(); ?>
 
 			// Previous/next post navigation.
 			the_post_navigation( array(
-				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', '{{theme_name}}' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Next post:', '{{theme_name}}' ) . '</span> ' .
+				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', '{{cookiecutter.theme_name}}' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Next post:', '{{cookiecutter.theme_name}}' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
-				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', '{{theme_name}}' ) . '</span> ' .
-					'<span class="screen-reader-text">' . __( 'Previous post:', '{{theme_name}}' ) . '</span> ' .
+				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', '{{cookiecutter.theme_name}}' ) . '</span> ' .
+					'<span class="screen-reader-text">' . __( 'Previous post:', '{{cookiecutter.theme_name}}' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
 			) );
 

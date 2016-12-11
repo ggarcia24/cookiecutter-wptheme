@@ -46,9 +46,9 @@ get_header(); ?>
 
 			// Previous/next page navigation.
 			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', '{{theme_name}}' ),
-				'next_text'          => __( 'Next page', '{{theme_name}}' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', '{{theme_name}}' ) . ' </span>',
+				'prev_text'          => __( 'Previous page', '{{cookiecutter.theme_name}}' ),
+				'next_text'          => __( 'Next page', '{{cookiecutter.theme_name}}' ),
+				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', '{{cookiecutter.theme_name}}' ) . ' </span>',
 			) );
 
 		// If no content, include the "No posts found" template.

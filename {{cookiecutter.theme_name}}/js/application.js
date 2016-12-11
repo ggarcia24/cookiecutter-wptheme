@@ -1,3 +1,6 @@
-/**
- * Created by gonzalo on 12/10/16.
+/*!
+ * {{cookiecutter.theme_name}} Javascript file
+ * Copyright {{cookiecutter.year}} {{cookiecutter.author_name}} <{{cookiecutter.email}}>
+ * {{cookiecutter.license}}
  */
+

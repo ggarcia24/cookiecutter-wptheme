@@ -23,7 +23,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '{{theme_name}}' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '{{cookiecutter.theme_name}}' ); ?></a>
 
 	<div id="sidebar" class="sidebar">
 		<header id="masthead" class="site-header" role="banner">
@@ -42,7 +42,7 @@
 						<p class="site-description"><?php echo $description; ?></p>
 					<?php endif;
 				?>
-				<button class="secondary-toggle"><?php _e( 'Menu and widgets', '{{theme_name}}' ); ?></button>
+				<button class="secondary-toggle"><?php _e( 'Menu and widgets', '{{cookiecutter.theme_name}}' ); ?></button>
 			</div><!-- .site-branding -->
 		</header><!-- .site-header -->
 
