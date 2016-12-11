@@ -7,7 +7,7 @@ Description: {{cookiecutter.short_description}}
 Version: {{cookiecutter.version}}
 License: {{cookiecutter.license}}
 License URI: {{cookiecutter.license_uri}}
-Tags: {{cookiecutter.tags}}
+Tags: {{cookiecutter.theme_tags}}
 Text Domain: {{cookiecutter.theme_name}}
 */
 
